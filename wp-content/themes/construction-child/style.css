@@ -1,0 +1,280 @@
+/*
+ Theme Name:   Rudy Vermeeren Child theme
+ Description:  Rudy Vermeeren Child theme
+ Author:       We Talk SEO
+ Template:     construction
+ Version:      1.0.0
+*/
+
+.page .filter:not(.filter-dark) button {
+	padding: 17px 13.2px !important;
+}
+
+.page-id-2321 .vc_col-md-6:first-child .wpb_wrapper:first-child {
+    text-align: right;
+}
+
+i.fa.fa.fa-envelope-o {
+    padding-right: 9px;
+    border-right: 1px solid;
+    margin-right: 5px;
+}
+
+.page .filter button {
+	font-size: 12px;
+}
+
+header.transparent {
+	background-color: #fff !important;
+}
+
+nav.site-navigation ul li a {
+	color: #000;
+}
+
+.home .site-header.transparent .contact-info li, .ghost-nav-wrap.site-navigation .contact-info li {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	color: #999;
+}
+
+.site-header.transparent .contact-info li i, .ghost-nav-wrap.site-navigation .contact-info li i {
+	color: rgb(255, 204, 67);
+}
+
+.site-header.classic .above-nav-bar .contact-info li i {
+	color: rgb(255, 204, 67);	
+}
+
+.site-header.transparent .contact-info li:before, .ghost-nav-wrap.site-navigation .contact-info li:before {
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+fieldset.form-group.col-md-7 {
+	width: 100%;
+}
+
+fieldset.form-group.col-md-7 textarea {
+	max-width: 100%;
+}
+
+.menu-left-side-services-menu {
+
+}
+
+.anps_menu_widget ul li {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 0 !important;
+}
+
+.anps_menu_widget ul li { 
+	border-bottom: 1px solid rgba(125, 125, 125, 0.2);
+}
+
+.anps_menu_widget ul li a{ 
+	display: block;
+	padding: 15px 30px !important;
+}
+
+.anps_menu_widget {
+	padding-left: 0 !important;
+}
+
+ .anps_menu_widget h3 {
+ 	padding-left: 30px;
+ }
+
+ .site-footer .anps_menu_widget h3 {
+ 	padding-left: 0;
+ }
+
+ @media screen and (max-width: 1000px){
+ 	.site-footer .widget_anpstext {
+ 		padding-left: 0;
+ 	}
+ }
+
+.widget_anpstext {
+	padding-left: 30px;
+}
+
+@media screen and (max-width: 1000px){
+	.widget_anpstext {
+		padding-left: 0;
+	}
+}
+
+.anps_menu_widget .menu a:before {
+	display: none;
+}
+
+.sidebar .widget_anpstext .widget-title, .sidebar .widget_text .widget-title, {
+	padding-left: 0px;
+}
+
+footer .anps_menu_widget ul li a {
+	padding: 5px 30px  5px 0 !important;
+}
+
+.menu-search .fa {
+	color: #000;
+}
+
+.client span img, .client a img {
+	max-height: 23px;
+}
+
+.home .filter {
+	width: 100%;
+	margin-top: 60px;
+}
+
+.home .filter button {
+	padding: 20px;
+}
+
+header.site-header.sticky {
+	top: 0 !important;
+}
+
+.sidebar-right .woocommerce-MyAccount-navigation, .sidebar-right .widget_text h3 {
+	padding-left: 0;
+}
+
+/* .page-id-1461 .sidebar-right .widget_text, .page-id-1408 .sidebar-right .widget_text {
+	display: none;
+} */
+
+#download {
+	z-index: 10;
+}
+
+.info-table-content a {
+	color: #000;
+}
+
+.partners .featured-header {
+	height: 188px;
+    padding: 20px 40px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.partners .featured-header img { 
+	max-height: 140px;
+	width: auto;
+	max-width: 80%;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.partners .featured-content {
+	min-height: 137px;
+}
+
+.partners .featured-content h3 {
+	min-height: 70px;
+	font-size: 15px;
+}
+
+.project-hover, .project-mobile-title {
+	left: 0;
+	right: 0;
+	padding: 15px 15px 10px 15px;
+}
+
+.project-hover h3, .project-mobile-title h3 {
+	margin-bottom: 4px !important;
+}
+
+.project-hover p, .project-mobile-title p {
+	font-size: 13px;
+	margin-bottom: 10px !important;
+}
+
+.home .projects-item {
+	overflow: hidden;
+    height: 270px;
+}
+
+.home .projects-item-wrap {
+	height: 100%;
+}
+
+.home .projects-item img {
+	height: 100%;
+	width: auto;
+}
+
+.home .diensten-wrapper .icon {
+	border: 1px solid rgba(125,125,125,0.2);
+}
+
+.home .diensten-wrapper .icon:hover {
+	background-color: #f8f8f8;
+}
+
+.home .diensten-wrapper .icon .icon-header {
+	margin-top: 15px;
+}
+
+.home .diensten-wrapper .icon h3 {
+	margin-bottom: 0;
+}
+
+.home .diensten-wrapper .icon p {
+	display: none;
+}
+
+.home .diensten-wrapper .icon a {
+	font-weight: 400;
+	transition: all 300ms ease-in;
+}
+
+.home .diensten-wrapper .icon a:hover {
+	font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+	.logo-mobile img {
+		max-height: 50px;
+	}
+}
+
+
+.site-header.transparent .contact-info li * {
+	color: #000;
+}
+
+.site-footer.transparent .contact-info li a  {
+	color: #9C9C9C;
+}
+
+.home .burger {
+	border-color: #000;
+}
+
+.home .burger span {
+	background-color: #000;
+}
+
+@media screen and (max-width: 1000px){
+	.home .site-header {
+		height: 75px;
+	}
+}
+
+.slotholder {
+	opacity: 0.6 !important;
+}
+
+.tp-caption.tp-resizeme {
+	text-shadow:  2px 2px 6px black !important;
+}
+
+
